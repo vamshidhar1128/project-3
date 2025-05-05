@@ -89,6 +89,10 @@
 				<version>2.22.2</version>
 				<configuration>
 					<argLine>${argLine} -Xmx2048m</argLine>
+					 <redirectTestOutputToFile>true</redirectTestOutputToFile>
+                                         <forkCount>1</forkCount>
+                                         <reuseForks>true</reuseForks>
+                                        <disableOutputReport>true</disableOutputReport> <!-- Optional -->
 				</configuration>
 			</plugin>
 
